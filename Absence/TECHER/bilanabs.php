@@ -23,14 +23,14 @@ include("../dbconn.php");
     th, td {
       text-align: left;
       padding: 8px;
-      border: 1px solid #ddd;
+      border: 1px solid black;
     }
     th {
-      background-color: #4CAF50;
+      background-color: rgb(95, 175, 159);
       color: white;
     }
     tr:hover {
-      background-color: red;
+      background-color: rgb(160, 211, 201);
     }
     .table-title {
       font-size: 14px;
@@ -44,7 +44,7 @@ include("../dbconn.php");
       padding-top: 200px;
     }
     body {
-      background-image: url(../green.png);
+      background-color: rgb(243, 224, 200);
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;

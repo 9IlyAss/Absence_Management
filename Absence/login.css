@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    box-sizing: border-box; 
 }
 
 .contenu {
@@ -15,7 +15,7 @@
 
 .login {
     background-color: rgb(243, 224, 200);
-    border: 2px solid rgb(57, 168, 163); /* Simplified border shorthand */
+    border: 2px solid rgb(57, 168, 163); 
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 40px rgba(14, 14, 14, 0.9);
@@ -40,8 +40,8 @@
     transition: background-color 1.5s, color 1s, padding 1s;
     height: 30px;
     width: 170px;
-    font-size: 14px; /* Increased font size for better readability */
-    cursor: pointer; /* Added cursor pointer to indicate clickable element */
+    font-size: 14px;
+    cursor: pointer; 
     
 }
 .submit:hover {
@@ -62,7 +62,7 @@
 
 .Signup {
     background-color: rgb(90, 255, 200);
-    border: 2px solid rgb(211, 197, 152); /* Simplified border shorthand */
+    border: 2px solid rgb(211, 197, 152);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 40px rgba(14, 14, 14, 0.9);
@@ -75,12 +75,10 @@
     transition: background-color 1.5s, color 1s, padding 1s;
     height: 30px;
     width: 170px;
-    font-size: 14px; /* Increased font size for better readability */
-    cursor: pointer; /* Added cursor pointer to indicate clickable element */
-    
+    font-size: 14px; 
+    cursor: pointer; 
 }
 
-/* Hover effect */
 .submit1:hover {
     background-color: #1c2425;
     color: rgb(247, 247, 247);

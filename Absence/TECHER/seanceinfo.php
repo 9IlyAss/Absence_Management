@@ -10,11 +10,12 @@ include("../dbconn.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presence Form</title>
     <style>
+
     body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f0f0f0;
+        background-color: rgb(95, 175, 159);
     }
 
     .container {
@@ -60,7 +61,7 @@ include("../dbconn.php");
     button[type="submit"] {
         padding: 0.5rem 1rem;
         font-size: 1.2rem;
-        background-color: #4CAF50;
+        background-color: rgb(95, 175, 159);
         color: #fff;
         border: none;
         border-radius: 4px;
@@ -68,7 +69,7 @@ include("../dbconn.php");
     }
 
     button[type="submit"]:hover {
-        background-color: #45a049;
+        background-color: rgb(40, 95, 84);
     }
 
     table {
@@ -126,9 +127,13 @@ include("../dbconn.php");
         mysqli_stmt_bind_param($stmt, "s", $nbr);
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
-        $row = mysqli_fetch_assoc($result);
-        $nbr_absences = $row['nbr_absence'];
+        if (mysqli_num_rows($result) > 0) {
+            $row = mysqli_fetch_assoc($result);
+            $nbr_absences = $row['nbr_absence'];
             echo "<h4>Number of Absences: $nbr_absences</h4>";
+        } else {
+            echo "No results found for absences.";
+        }
 
 
 #hna Presence number

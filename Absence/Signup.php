@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
             mysqli_stmt_bind_param($stmt, "s", $email);
             mysqli_stmt_execute($stmt);
             mysqli_stmt_store_result($stmt);
+            
             if (mysqli_stmt_num_rows($stmt) > 0) 
             {
                 echo "<script>alert('The email Already Exist !!');</script>";

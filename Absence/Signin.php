@@ -30,14 +30,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     exit;
                 }
         } else {
-            echo "<script>alert('Wrong Email/Password');</script>";
+            echo "<script>alert('Wrong Password');</script>";
         }
         mysqli_stmt_close($stmt);
     } else {
         echo "<script>alert('Please fill in all fields');</script>";
     }
 }
-$conn->close();
+mysqli_close($conn);
 ?>
 
 
@@ -55,7 +55,7 @@ $conn->close();
         <div class="login">
             <form method="post" class="formlogin">
                 <div class="field inside">
-                    <h1>Login</h1><br>
+                    <h1>Sign in</h1><br>
                     <label class="Email">Email</label><br>
                     <input type="email" name="email1" value="" class="input"><br><br>
                     <label class="PASSWORD">Password</label><br>
@@ -68,7 +68,7 @@ $conn->close();
     </div>
     <style>
         body{
-        background-color: rgb(90, 255, 200);
+        background-color:rgb(95, 175, 159);
         }
     </style>
 </body>

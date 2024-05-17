@@ -88,9 +88,9 @@ mysqli_close($conn);
         margin: 0;
         padding: 0;
         background-color: rgb(90, 255, 200);
-        background-image: linear-gradient(90deg, rgba(255,255,255,0.2) 50%, transparent 50%),
-        linear-gradient(90deg, rgba(255,255,255,0.2) 50%, transparent 50%);
-        background-size: 1350px 1350px;
+        background-image: linear-gradient(90deg, rgb(95, 175, 159) 50%, transparent 50%),
+        linear-gradient(90deg, rgb(95, 175, 159) 50%, transparent 50%);
+        background-size: 1510px 1(&àpx;
     }
     
     .container {
@@ -153,7 +153,7 @@ mysqli_close($conn);
     }
     
     .submit{
-    background-color: rgb(90, 255, 200);
+    background-color: rgb(95, 175, 159);
     border: none;
     border-radius: 12px;
     transition: background-color 1.5s, color 1s, padding 1s;

@@ -65,7 +65,7 @@ mysqli_close($conn);
             background-color: rgb(90, 255, 200);
             background-image: linear-gradient(90deg, rgba(255,255,255,0.2) 50%, transparent 50%),
             linear-gradient(90deg, rgba(255,255,255,0.2) 50%, transparent 50%);
-            background-size: 700px 700px;
+            background-size: 1510px 1510px;
         }
 
         .container 
