@@ -20,7 +20,7 @@ Features
     
   Teacher HomePage :
   
-    ![homepageteacher](https://github.com/9IlyAss/Absence_Management/assets/154934525/084a8055-7580-4e62-96b9-c3deadb7b255)
+  ![homepageteacher](https://github.com/9IlyAss/Absence_Management/assets/154934525/084a8055-7580-4e62-96b9-c3deadb7b255)
     
   Teacher's Attendence Form :
     ![attendenceform](https://github.com/9IlyAss/Absence_Management/assets/154934525/886b5854-da72-4b1b-abff-49802b87e44e)
